@@ -1,4 +1,4 @@
-package aula01;
+package example01;
 
 public class MyFirstProgramJava {
     public static void main(String[] args) {

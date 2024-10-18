@@ -1,4 +1,4 @@
-package aula01;
+package example01;
 
 public class Cachorro {
     //ATRIBUTOS
