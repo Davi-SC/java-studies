@@ -10,4 +10,8 @@ public class Livro {
     public void mostrarDetalhes(){
 
     }
+
+    public String getTitulo() {
+        return titulo;
+    }
 }
