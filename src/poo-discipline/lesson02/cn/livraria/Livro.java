@@ -31,30 +31,34 @@ public class Livro {
 
     }
 
-    //SETS
+    //GETS and SETS
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    public String getNome() {
+        return nome;
     }
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
-    }
-    public void setValor(double valor) {
-        this.valor = valor;
-    }
-    //GETS
-    public String getNome() {
-        return nome;
-    }
     public String getDescricao() {
         return descricao;
+    }
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
     public String getIsbn() {
         return isbn;
     }
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
     public double getValor() {
         return valor;
     }
+    //GETS
+
+
+
+
 }
