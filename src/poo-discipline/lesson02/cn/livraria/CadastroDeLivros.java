@@ -13,6 +13,7 @@ public class CadastroDeLivros {
 
         livroJava.mostrarDetalhes(autor);
         livroPython.mostrarDetalhes(autor);
+
     }
 
 }
