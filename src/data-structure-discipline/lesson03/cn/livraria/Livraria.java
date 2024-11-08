@@ -29,18 +29,15 @@ public class Livraria {
     }
 
     public Livro buscarLivro(String titulo) throws RuntimeException{
-
         if(isEmpty()){
             throw new RuntimeException("Esta vazio");
         }
-
         for (int i = 0; i < size; i++) {
             if(livros[i].getTitulo().equals(titulo)){
                 return livros[i];
             }
         }
-
-        throw new RuntimeException("Livro nao encontrado")
+        throw new RuntimeException("Livro nao encontrado");
     }
 
 }
