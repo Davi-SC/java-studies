@@ -20,7 +20,7 @@ public class Livro {
 
     Livro( ){}
 
-    void mostrarDetalhes(Autor autor){
+    void mostrarDetalhes(){
 
         System.out.println("Nome:  "+nome);
         System.out.println("Descricao:  "+descricao);

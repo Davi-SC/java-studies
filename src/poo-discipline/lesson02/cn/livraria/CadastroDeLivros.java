@@ -11,8 +11,8 @@ public class CadastroDeLivros {
         Livro livroJava = new Livro("Java","Aprenda java", "103-121-3-12", 75.99 ,autor);
         Livro livroPython = new Livro("Python","Aprenda Python", "102-121-2-45", 99.99 , autor);
 
-        livroJava.mostrarDetalhes(autor);
-        livroPython.mostrarDetalhes(autor);
+        livroJava.mostrarDetalhes();
+        livroPython.mostrarDetalhes();
 
     }
 
