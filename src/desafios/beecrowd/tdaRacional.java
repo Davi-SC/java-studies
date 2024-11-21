@@ -6,8 +6,9 @@ public class tdaRacional {
 
     public static double calcular(String equacao){
         String resultado ;
-        Float numerador,denominador,numeradorRed,denominadorRed ;
-        Float valores[] = new Float[4] ;
+        float numerador,denominador,numeradorRed,denominadorRed ;
+        int n;
+        float valores[] = new float[4] ;
         valores[0] = Float.parseFloat(equacao[0]);
         valores[1] = Float.parseFloat(equacao[4]);
         valores[2] = Float.parseFloat(equacao[8]);
@@ -16,10 +17,14 @@ public class tdaRacional {
         if(equacao[6] == "+"){
             numerador = valores[0]*valores[3]+valores[1]*valores[2];
             denominador = valores[3]*valores[2];
-            
+
+            if(equacao[6] == "+")
+            while(true){
+
+            }
             numeradorRed= ;
             denominadorRed = ;
-            resultado = ""+numerador+"/"+denominador+"="++""+;
+            resultado = ""+numerador+"/"+denominador+"="+numeradorRed+"/"+denominadorRed;
         } else if (equacao[6] == "-") {
 
         }else if (equacao[6] == "*") {
