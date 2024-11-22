@@ -1,4 +1,4 @@
-package desafios.beecrowd;
+/*package desafios.beecrowd;
 
 import java.util.Scanner;
 
@@ -47,3 +47,4 @@ public class tdaRacional {
 
     }
 }
+*/
