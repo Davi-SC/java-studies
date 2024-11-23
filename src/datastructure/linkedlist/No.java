@@ -1,4 +1,4 @@
-package datastructure.lista;
+package datastructure.linkedlist;
 
 public class No {
     private String elemento;

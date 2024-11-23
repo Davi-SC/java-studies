@@ -1,9 +1,11 @@
-package datastructure.lista;
+package datastructure.linkedlist;
+
+import datastructure.linkedlist.ListaEncadeada;
 
 public class Teste {
 
     public static void main(String[] args) {
-        ListaEncadeada lista = new ListaEncadeada() ;
+        datastructure.linkedlist.ListaEncadeada lista = new ListaEncadeada() ;
 
         lista.adiciona("Davi");
         System.out.println(lista);
@@ -16,5 +18,9 @@ public class Teste {
         lista.adiciona("Victor");
         System.out.println(lista);
         System.out.println(lista.getSize());
+
+        lista.removeLast;
+        System.out.println(lista);
+        
     }
 }
