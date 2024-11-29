@@ -19,7 +19,7 @@ public class Teste {
         System.out.println(lista);
         System.out.println(lista.getSize());
 
-        lista.removeLast;
+        lista.removeLast();
         System.out.println(lista);
         
     }

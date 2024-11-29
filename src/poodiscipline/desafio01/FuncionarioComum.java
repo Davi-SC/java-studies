@@ -1,6 +1,6 @@
-package desafio01;
+package poodiscipline.desafio01;
 
-public class FuncionarioComum extends Funcionario{
+public class FuncionarioComum extends Funcionario {
 
     private double salarioMensal;
 

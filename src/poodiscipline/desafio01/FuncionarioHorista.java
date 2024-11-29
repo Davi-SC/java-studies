@@ -1,10 +1,10 @@
-package desafio01;
+package poodiscipline.desafio01;
 
 public class FuncionarioHorista extends Funcionario{
-    private double horasTrabalhadas;
+    private int horasTrabalhadas;
     private double valorHora;
 
-    public FuncionarioHorista(String nome,String cpf,double horasTrabalhadas,double valorHora){
+    public FuncionarioHorista(String nome,String cpf,int horasTrabalhadas,double valorHora){
         this.nome = nome;
         this.cpf = cpf;
         this.horasTrabalhadas = horasTrabalhadas;
@@ -24,11 +24,11 @@ public class FuncionarioHorista extends Funcionario{
         this.valorHora = valorHora;
     }
 
-    public double getHorasTrabalhadas() {
+    public int getHorasTrabalhadas() {
         return horasTrabalhadas;
     }
 
-    public void setHorasTrabalhadas(double horasTrabalhadas) {
+    public void setHorasTrabalhadas(int horasTrabalhadas) {
         this.horasTrabalhadas = horasTrabalhadas;
     }
 }

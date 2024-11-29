@@ -1,4 +1,4 @@
-package desafio01;
+package poodiscipline.desafio01;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package desafio01;
+package poodiscipline.desafio01;
 
 abstract class Funcionario {
     protected String nome;
@@ -8,11 +8,9 @@ abstract class Funcionario {
     abstract double calcularSalario();
 
     public String toString() {
-        return "Funcionario{" +
-                "nome='" + nome + '\'' +
-                ", cpf='" + cpf + '\'' +
-                ", salario='" + salario + '\'' +
-                '}';
+        return "" + nome +
+                ", " + cpf +
+                ", " + salario ;
     }
 
     public String getNome() {

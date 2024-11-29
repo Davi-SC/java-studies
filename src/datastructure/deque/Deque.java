@@ -21,7 +21,7 @@ public class Deque {
             this.head = celula ;
         }
         else{
-            this.tail.setProximo(celula);
+            this.tail.setNext(celula);
         }
         this.tail = celula ;
         this.size++ ;
@@ -32,31 +32,24 @@ public class Deque {
     }
 
     public boolean isEmpty(){
-
+        return size ==0 ;
     }
 
-    public void removeFirst(){
-        if(isEmpty()){
-            throw new RuntimeException("vetor vazio") ;
-        }
-        head = head.next;
-
-    }
     public void removeLast(){
 
         if(isEmpty()){
             throw new RuntimeException("vetor vazio") ;
         }
 
-        Node current = head.next;
+        Node current = head.getNext();
         Node previous = head;
 
-        while(current.next != null){
+        while(current.getNext() != null){
             previous = current ;
-            current = current.next ;
+            current = current.getNext() ;
         }
 
-        previous.next = null ;
+        previous.setNext(null);
         tail = previous ;
         size --;
     }
@@ -66,11 +59,11 @@ public class Deque {
         if(isEmpty()){
             throw new RuntimeException("vetor vazio") ;
         }
-        Node primeiro = head.next ;
-        Node segundo = primeiro.next ;
+        Node primeiro = head.getNext() ;
+        Node segundo = primeiro.getNext() ;
 
-        head.next = segundo ;
-        segundo.previous = head ;
+        head.setNext(segundo);
+        segundo.setPrevious(head);
 
         size --;
     }

@@ -29,31 +29,31 @@ public class ListaEncadeada {
     }
 
     public boolean isEmpty(){
-
+        return size == 0;
     }
 
     public void removeFirst(){
         if(isEmpty()){
-            throw new RuntimeException("vetor vazio")
+            throw new RuntimeException("vetor vazio") ;
         }
-        head = head.next;
+        head = head.getProximo();
 
     }
     public void removeLast(){
 
         if(isEmpty()){
-            throw new RuntimeException("vetor vazio")
+            throw new RuntimeException("vetor vazio") ;
         }
 
-        No current = head.next;
+        No current = head.getProximo();
         No previous = head;
 
-        while(current.next != null){
+        while(current.getProximo() != null){
             previous = current ;
-            current = current.next ;
+            current = current.getProximo() ;
         }
 
-        previous.next = null ;
+        previous.setProximo(null) ;
         tail = previous ;
         size --;
     }
