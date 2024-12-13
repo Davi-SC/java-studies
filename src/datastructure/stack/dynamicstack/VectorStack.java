@@ -26,4 +26,29 @@ public class VectorStack implements IStack{
         }
         return s+"]";
     }
+
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public String top() {
+        return "";
+    }
+
+    @Override
+    public void push(String element) {
+
+    }
+
+    @Override
+    public String pop() {
+        return "";
+    }
 }
